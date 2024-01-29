@@ -6,8 +6,6 @@ const {v1 : uuidv1} = require("uuid")
 app.use(cors());
 app.use(Express.json());
 
-
-
 let taskArr = [];
 app.post('/tasks', (req, res) => {
 
